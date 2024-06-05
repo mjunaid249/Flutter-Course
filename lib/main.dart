@@ -11,9 +11,7 @@ void main() {
         ),
       ),
       body: const Center(
-        child: Image(
-            image: NetworkImage(
-                'https://images.pexels.com/photos/23702180/pexels-photo-23702180/free-photo-of-a-bucket-of-red-beans-sitting-on-top-of-a-pile-of-red-beans.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')),
+        child: Image(image: AssetImage('../assets/image1.jpeg')),
       ),
     ),
   ));
