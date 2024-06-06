@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.blueGrey.shade300,
         appBar: AppBar(
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.yellow,
           title: const Center(
-            child: Text('Flutter'),
+            child: Text('Material'),
           ),
         ),
         body: const Center(
